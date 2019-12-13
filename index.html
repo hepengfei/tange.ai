@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <title>探鸽智能</title>
+    <style>
+        @font-face {
+            font-family: Bryant;
+            src: url("./fonts/Bryant-MediumAlt.pfb.ttf");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .banner{
+            background-image: url('./images/bg.png');
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            min-width: 1000px;
+            z-index: -10;
+            zoom: 1;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-position: center 0;
+        }
+
+        .text-ico{
+            height: 108px;
+            font-size: 130px;
+            font-family: Bryant;
+            font-weight: normal;
+            color: rgba(255,255,255,1);
+            position: relative;
+            right: -14%;
+            line-height: 93px;
+        }
+
+        .img-ico{
+            width: 74px;
+            height: 94px;
+            position: relative;
+            left: 8%;
+            margin-top: 3px;
+        }
+
+        .long-text{
+            width: 100%;
+            height: 41px;
+            font-size: 42px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: rgba(255,255,255,1);
+            letter-spacing: 33px;
+            margin-left: 3%;
+            margin-top: 8%;
+            text-align: center;
+        }
+
+        .center{
+            width: 525px;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .ico{
+            float: left;
+        }
+
+        @media screen and (max-width: 800px){
+            .center{
+                left: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="center">
+            <img class="img-ico ico" src="images/logo.png">
+            <div class="text-ico ico">tange</div>
+            <div class="long-text ico">让摄像头更聪明</div>
+        </div>
+    </div>
+
+</body>
+</html>
